@@ -1,0 +1,86 @@
+material Custom/BrushedMetal
+ {
+    technique
+    {
+       pass
+        {
+          texture_unit
+          {
+            texture BrushedSteel.jpg
+            scale 0.1 0.1
+            // this means that the texture will be tiled 10 times (1/10 = 0.1)
+          }
+       }   
+    }
+ }
+material Custom/MetalNet
+ {
+    technique
+    {
+       pass
+        {
+          texture_unit
+          {
+            texture Netting.jpg
+            scale 0.1 0.1
+            // this means that the texture will be tiled 10 times (1/10 = 0.1)
+          }
+       }   
+    }
+ }
+ 
+material Custom/Red
+  {
+    technique
+    {
+      pass
+      {
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 1 0 0
+        }
+      } 
+    }
+  }
+  material Custom/Yellow
+  {
+    technique
+    {
+      pass
+      {
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 1 1 0
+        }
+      } 
+    }
+  }
+ material Custom/Green
+  {
+    technique
+    {
+      pass
+      {
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 0 1 0
+        }
+      } 
+    }
+  }
+  
+material Custom/Blue
+{
+   technique
+   {
+      pass
+      {
+         lighting on
+ 
+         ambient 0.3 0.3 0.3 1
+         diffuse 0.1 0.2 0.7 1
+         emissive 0 0 0 1
+      }
+   }
+}
+ 

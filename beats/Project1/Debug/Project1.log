@@ -1,0 +1,32 @@
+﻿Build started 5/16/2017 5:13:30 AM.
+     1>Project "C:\Users\cricel\Desktop\xlin10\final iteration report\final_project\Project1\Project1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\cricel\Desktop\classENV\Build9/include/OGRE/Overlay /IC:\Users\cricel\Desktop\classENV\Build9/include/OGRE /IC:\Users\cricel\Desktop\classENV\boost_1_60_0 /IC:\Users\cricel\Desktop\classENV\Build9/include/OIS /IC:\Users\cricel\Desktop\classENV\Build9/include /I"C:\Users\cricel\Desktop\classENV\bullet-2.82\src\/BulletCollision/CollisionShapes" /I"C:\Users\cricel\Desktop\classENV\bullet-2.82\src\\" /I"C:\Users\cricel\Desktop\classENV\bullet-2.82\src\/LinearMath" /I"C:\Users\cricel\Desktop\classENV\irrKlang-1.5.0/include" /I"C:\Users\cricel\Desktop\classENV\cegui\include\cegui-0\\" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\BaseApplication.cpp ..\Tutorial3.cpp
+         Tutorial3.cpp
+     1>c:\users\cricel\desktop\xlin10\final iteration report\final_project\tutorial3.cpp(57): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\cricel\desktop\xlin10\final iteration report\final_project\tutorial3.cpp(498): warning C4316: 'MyMotionState' : object allocated on the heap may not be aligned 16
+     1>c:\users\cricel\desktop\xlin10\final iteration report\final_project\tutorial3.cpp(656): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+     1>c:\users\cricel\desktop\xlin10\final iteration report\final_project\tutorial3.cpp(670): warning C4316: 'MyMotionState' : object allocated on the heap may not be aligned 16
+     1>c:\users\cricel\desktop\xlin10\final iteration report\final_project\tutorial3.cpp(754): warning C4316: 'MyMotionState' : object allocated on the heap may not be aligned 16
+     1>c:\users\cricel\desktop\xlin10\final iteration report\final_project\tutorial3.cpp(847): warning C4316: 'MyMotionState' : object allocated on the heap may not be aligned 16
+     1>c:\users\cricel\desktop\xlin10\final iteration report\final_project\tutorial3.cpp(925): warning C4316: 'MyMotionState' : object allocated on the heap may not be aligned 16
+     1>c:\users\cricel\desktop\xlin10\final iteration report\final_project\tutorial3.cpp(966): warning C4316: 'MyMotionState' : object allocated on the heap may not be aligned 16
+     1>c:\users\cricel\desktop\xlin10\final iteration report\final_project\tutorial3.cpp(1000): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+     1>c:\users\cricel\desktop\xlin10\final iteration report\final_project\tutorial3.cpp(1007): warning C4316: 'MyMotionState' : object allocated on the heap may not be aligned 16
+     1>c:\users\cricel\desktop\xlin10\final iteration report\final_project\tutorial3.cpp(1125): warning C4305: 'initializing' : truncation from 'double' to 'Ogre::Real'
+         BaseApplication.cpp
+         Generating Code...
+     1>c:\users\cricel\desktop\xlin10\final iteration report\final_project\tutorial3.cpp(61): warning C4715: 'TutorialApplication::getTank' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\cricel\Desktop\xlin10\final iteration report\final_project\Debug\Project1.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\cricel\Desktop\classENV\boost_1_60_0\lib32-msvc-12.0" /LIBPATH:C:\Users\cricel\Desktop\classENV\Build9\lib/debug /LIBPATH:"C:\Users\cricel\Desktop\classENV\bullet-2.82\lib\\" /LIBPATH:"C:\Users\cricel\Desktop\classENV\irrKlang-1.5.0/lib/Win32-visualStudio" /LIBPATH:"C:\Users\cricel\Desktop\classENV\irrKlang-1.5.0\lib\Win32-visualStudio" /LIBPATH:"C:\Users\cricel\Desktop\classENV\irrKlang-1.5.0\bin\win32-visualStudio" /LIBPATH:C:\Users\cricel\Desktop\classENV\cegui\lib\ OgreMain_d.lib OgreOverlay_d.lib OIS_d.lib OgreTerrain_d.lib irrKlang.lib BulletCollision_vs2010_debug.lib BulletDynamics_vs2010_debug.lib BulletSoftBody_vs2010_debug.lib ConvexDecomposition_vs2010_debug.lib BulletSoftBodyDX11Solvers_vs2010_debug.lib HACD_vs2010_debug.lib LinearMath_vs2010_debug.lib "CEGUIBase-0_d.lib" "CEGUIOgreRenderer-0_d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\cricel\Desktop\xlin10\final iteration report\final_project\Debug\Project1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\cricel\Desktop\xlin10\final iteration report\final_project\Debug\Project1.lib" /MACHINE:X86 Debug\BaseApplication.obj
+         Debug\Tutorial3.obj
+         Project1.vcxproj -> C:\Users\cricel\Desktop\xlin10\final iteration report\final_project\Debug\Project1.exe
+       PostBuildEvent:
+         copy "C:\Users\cricel\Desktop\xlin10\final iteration report\final_project\Debug\\Project1.exe" "C:\Users\cricel\Desktop\classENV\Build9\Bin\Debug"
+         :VCEnd
+                 1 file(s) copied.
+     1>Done Building Project "C:\Users\cricel\Desktop\xlin10\final iteration report\final_project\Project1\Project1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.98
